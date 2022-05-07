@@ -1,7 +1,7 @@
 #!/bin/bash
 
-POOL=eth-sg.flexpool.io:4444
-WALLET=0x3da2c7743970908cac0e6b606f064330aea8b03f
+POOL=ethash.kupool.com:1800
+WALLET=fabio
 WORKER=$(echo "$(cat /proc/sys/kernel/hostname)" | tr . _ )
 
 cd "$(dirname "$0")"
